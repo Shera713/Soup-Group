@@ -82,6 +82,7 @@ button:active {
 
 .logo {
   width: 160px;
+  border: solid #7342d6 4px;
 }
 
 .nav__container {
@@ -208,10 +209,15 @@ header {
 
 .header__img--wrapper {
   padding: 20px;
+  margin-bottom: 20px;
 
   /* Added this after the tutorial to 
   show it over the wave on larger screens */
   z-index: 50;
+}
+
+.header__img{
+  width: 100%
 }
 
 .container {
